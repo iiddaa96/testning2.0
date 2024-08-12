@@ -3,6 +3,15 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+body {
+  background-color: #fff8e1;
 }
 
 .logo {
@@ -12,10 +21,11 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ffe4b5);
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #ffcccb);
 }
 
 @keyframes logo-spin {
@@ -39,4 +49,79 @@
 
 .read-the-docs {
   color: #888;
+}
+
+h1 {
+  color: #ffadad;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: #ffd580 2px 2px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border: 2px solid #ffd580;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.save-button {
+  background-color: #ffd580;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  border: 1px solid #ffd580;
+}
+
+.save-button:hover {
+  background-color: #ffadad;
+  border: solid 1px #ffadad;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 250px;
+}
+
+li {
+  background-color: #ffe4e1;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li span {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: #ffd580;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+li button:hover {
+  background-color: #ffd580;
 }

@@ -21,7 +21,7 @@ function TodoForm(props: Props) {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button style={{ marginLeft: "5px" }}>Save</button>
+      <button className="save-button">Save</button>
     </form>
   );
 }
