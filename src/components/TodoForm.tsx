@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
 
-// Våra props ger oss möjligheten att skapa integrationstester.
+// Props ger oss möjligheten att skapa integrationstester.
 interface Props {
   onSubmit: (text: string) => void;
 }
