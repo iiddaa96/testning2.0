@@ -14,9 +14,11 @@ describe("TodoForm", () => {
     const handleSubmit = vi.fn();
     render(<TodoForm onSubmit={handleSubmit} />);
 
-    fireEvent.input(screen.getByRole("textbox"), { target: { value: "Eat" } });
+    fireEvent.input(screen.getByRole("textbox"), {
+      target: { value: "Träna" },
+    });
     fireEvent.click(screen.getByRole("button"));
 
-    expect(handleSubmit).toBeCalledWith("Eat");
+    expect(handleSubmit).toBeCalledWith("Träna");
   });
 });
