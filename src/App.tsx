@@ -59,6 +59,7 @@ function App() {
             >
               {todo.text}
             </span>
+            {/* Knapp för att ta bort en todo */}
             <button onClick={() => deleteTodo(index)} className="delete-button">
               Delete
             </button>
