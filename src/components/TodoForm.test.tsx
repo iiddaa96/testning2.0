@@ -3,6 +3,7 @@ import { describe, expect, it, vi } from "vitest";
 import TodoForm from "./TodoForm";
 
 describe("TodoForm", () => {
+  // Kollar om det finns en knapp och att det står save på den.
   it("should render an input with a submit button", () => {
     render(<TodoForm onSubmit={vi.fn()} />);
 
@@ -10,6 +11,7 @@ describe("TodoForm", () => {
     expect(screen.getByRole("button")).toHaveTextContent("Save");
   });
 
+  // Kollar om det går att skriva i input-fältet.
   it("should submit the text that was entered in the input", () => {
     const handleSubmit = vi.fn();
     render(<TodoForm onSubmit={handleSubmit} />);

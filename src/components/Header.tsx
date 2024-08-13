@@ -1,7 +1,7 @@
 function Header() {
   return (
     <>
-      <h1 style={{ marginTop: "-8rem" }}>THINGS TO DO:</h1>
+      <h1 style={{ marginTop: "-8rem", color: "#ffadad" }}>THINGS TO DO:</h1>
     </>
   );
 }

@@ -57,7 +57,7 @@ describe("App", () => {
     const checkbox = screen.getByRole("checkbox");
     fireEvent.click(checkbox);
 
-    // Verifiera att todo:n är markerad som klar (texten är överstruken)
+    // Verifiera att todo:n är markerad som klar
     expect(todoElement).toHaveStyle({ textDecoration: "line-through" });
   });
 
