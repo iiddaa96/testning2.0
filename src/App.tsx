@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Header from "./components/Header";
 import TodoForm from "./components/TodoForm";
 
 interface Todo {
@@ -32,7 +33,7 @@ function App() {
 
   return (
     <>
-      <h1 style={{ marginTop: "-8rem" }}>THINGS TO DO:</h1>
+      <Header />
 
       <TodoForm onSubmit={addTodo} />
 

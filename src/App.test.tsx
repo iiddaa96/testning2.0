@@ -41,6 +41,26 @@ describe("App", () => {
     expect(screen.getByText("Träna"));
   });
 
+  // Kollar om en todo är färdig
+  it("should check if the todo is completed", () => {
+    render(<App />);
+
+    fireEvent.input(screen.getByRole("textbox"), {
+      target: { value: "Laga mat" },
+    });
+    fireEvent.click(screen.getByText("Save"));
+
+    const todoElement = screen.getByText("Laga mat");
+    expect(todoElement).toBeInTheDocument();
+
+    // Markera todo:n som klar genom att klicka på checkboxen
+    const checkbox = screen.getByRole("checkbox");
+    fireEvent.click(checkbox);
+
+    // Verifiera att todo:n är markerad som klar (texten är överstruken)
+    expect(todoElement).toHaveStyle({ textDecoration: "line-through" });
+  });
+
   // Kollar om man kan radera en todo.
   it("should be possible to delete a todo", () => {
     render(<App />);
