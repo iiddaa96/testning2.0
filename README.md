@@ -7,6 +7,7 @@ The To-Do application is a simple and user-friendly web app built with React and
 ## Installation
 
 To begin, run the command `npm install` to install the required modules. To launch the todo list, execute `npm run dev`.
+To check the tests execute `npm test`.
 
 ## Tools
 
