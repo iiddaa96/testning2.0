@@ -10,6 +10,15 @@ describe("App", () => {
     expect(screen.getByRole("heading")).toBeInTheDocument();
   });
 
+  // Kan inte lägga till en tom todo.
+  it("Can´t add an empty todo", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByText("Save"));
+
+    expect(screen.queryByRole("listitem")).not.toBeInTheDocument();
+  });
+
   // Kollar om man kan skriva in en todo och spara den.
   it("should be possible to add a todo", () => {
     render(<App />);
