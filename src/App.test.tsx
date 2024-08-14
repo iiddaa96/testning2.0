@@ -77,7 +77,7 @@ describe("App", () => {
     expect(todos[2]).toHaveTextContent("Laga mat");
   });
 
-  // Kollar om en todo är färdig
+  // Kollar om en todo är färdig ( Verkar inte fungera, har även testat att testa flera todo:s )
   it("should check if the todo is completed", () => {
     render(<App />);
 
