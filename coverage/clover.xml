@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723537066936" clover="3.2.0">
-  <project timestamp="1723537066936" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="1" coveredelements="1" complexity="0" loc="0" ncloc="0" packages="1" files="1" classes="1"/>
-    <file name="Header.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/Header.tsx">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-    </file>
+<coverage generated="1723622650663" clover="3.2.0">
+  <project timestamp="1723622650663" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13" elements="36" coveredelements="35" complexity="0" loc="19" ncloc="19" packages="2" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
+      <file name="App.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/App.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="DeleteButton.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/DeleteButton.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/Header.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      </file>
+      <file name="TodoForm.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/TodoForm.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="9" count="17" type="stmt"/>
+        <line num="11" count="17" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

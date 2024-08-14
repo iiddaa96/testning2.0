@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import DeleteButton from "./components/DeleteButton";
 import Header from "./components/Header";
 import TodoForm from "./components/TodoForm";
 
@@ -60,10 +61,7 @@ function App() {
             >
               {todo.text}
             </span>
-            {/* Knapp för att ta bort en todo */}
-            <button onClick={() => deleteTodo(index)} className="delete-button">
-              Delete
-            </button>
+            <DeleteButton onDelete={() => deleteTodo(index)} />
           </li>
         ))}
       </ul>
