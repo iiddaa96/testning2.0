@@ -15,7 +15,8 @@ function App() {
   // Kollar om en todo är klar eller inte.
   const addTodo = (text: string) => {
     const newTodo = { text, isCompleted: false };
-    setTodos([...todos, newTodo]);
+    // Gör så att den nya todo hamnar överst i listan.
+    setTodos([newTodo, ...todos]);
   };
 
   // Ändrar status på en todo.

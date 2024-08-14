@@ -41,6 +41,33 @@ describe("App", () => {
     expect(screen.getByText("Träna"));
   });
 
+  // Kollar om den senaste todo:n hamnar överst i listan.
+  it("The latest todo should be at the top of the list", () => {
+    render(<App />);
+
+    // Lägger till tre todo i listan
+    fireEvent.input(screen.getByRole("textbox"), {
+      target: { value: "Laga mat" },
+    });
+    fireEvent.click(screen.getByText("Save"));
+
+    fireEvent.input(screen.getByRole("textbox"), {
+      target: { value: "Diska" },
+    });
+    fireEvent.click(screen.getByText("Save"));
+
+    fireEvent.input(screen.getByRole("textbox"), {
+      target: { value: "Handla" },
+    });
+    fireEvent.click(screen.getByText("Save"));
+
+    // Kontrollera att den senaste todo:n är överst i listan
+    const todos = screen.getAllByRole("listitem");
+    expect(todos[0]).toHaveTextContent("Handla");
+    expect(todos[1]).toHaveTextContent("Diska");
+    expect(todos[2]).toHaveTextContent("Laga mat");
+  });
+
   // Kollar om en todo är färdig
   it("should check if the todo is completed", () => {
     render(<App />);

@@ -10,7 +10,11 @@ function TodoForm(props: Props) {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    props.onSubmit(text);
+    if (text.trim()) {
+      // Kontrollera att input fältet inte är tom
+      props.onSubmit(text);
+      setText("");
+    }
   };
 
   return (
