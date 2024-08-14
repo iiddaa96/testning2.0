@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723623863133" clover="3.2.0">
-  <project timestamp="1723623863133" name="All files">
+<coverage generated="1723624393063" clover="3.2.0">
+  <project timestamp="1723624393063" name="All files">
     <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13" elements="36" coveredelements="35" complexity="0" loc="19" ncloc="19" packages="2" files="4" classes="4"/>
     <package name="src">
       <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
@@ -25,18 +25,18 @@
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
       <file name="DeleteButton.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/DeleteButton.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
       <file name="Header.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/Header.tsx">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       </file>
       <file name="TodoForm.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/TodoForm.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="9" count="17" type="stmt"/>
-        <line num="11" count="17" type="stmt"/>
-        <line num="12" count="5" type="stmt"/>
-        <line num="13" count="5" type="stmt"/>
-        <line num="22" count="5" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="11" count="20" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
       </file>
     </package>
   </project>
