@@ -4,7 +4,7 @@ import App from "./App";
 
 describe("App", () => {
   // Kollar om h1-elementet innehåller texten "THINGS TO DO:".
-  it("should be h1", () => {
+  it("should have h1-title", () => {
     render(<App />);
 
     expect(screen.getByRole("heading")).toHaveTextContent("THINGS TO DO:");

@@ -4,7 +4,7 @@ import Header from "./Header";
 
 describe("Header", () => {
   // Kollar om h1-elementet innehåller texten "THINGS TO DO:".
-  it("should be h1", () => {
+  it("should have h1-title", () => {
     render(<Header />);
 
     expect(screen.getByRole("heading")).toHaveTextContent("THINGS TO DO:");
