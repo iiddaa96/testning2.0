@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723670791239" clover="3.2.0">
-  <project timestamp="1723670791239" name="All files">
+<coverage generated="1723758528907" clover="3.2.0">
+  <project timestamp="1723758528907" name="All files">
     <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="5" methods="13" coveredmethods="13" elements="41" coveredelements="40" complexity="0" loc="22" ncloc="22" packages="2" files="4" classes="4"/>
     <package name="src">
       <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
@@ -25,21 +25,21 @@
       <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
       <file name="DeleteButton.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/DeleteButton.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
       <file name="Header.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/Header.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="17" type="stmt"/>
+        <line num="2" count="19" type="stmt"/>
       </file>
       <file name="TodoForm.tsx" path="C:/Users/ida_c/OneDrive/Skrivbord/testning2.0/src/components/TodoForm.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="9" count="25" type="stmt"/>
-        <line num="11" count="25" type="stmt"/>
-        <line num="12" count="9" type="stmt"/>
-        <line num="13" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="8" type="stmt"/>
-        <line num="16" count="8" type="stmt"/>
-        <line num="26" count="8" type="stmt"/>
+        <line num="9" count="29" type="stmt"/>
+        <line num="11" count="29" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
       </file>
     </package>
   </project>
